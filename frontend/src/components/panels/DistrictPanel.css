@@ -1,0 +1,44 @@
+/* District Panel Styles */
+
+/* Panel Empty */
+.panel-empty h3 {
+  color: var(--primary);
+}
+
+//* Panel Detail */
+.panel-detail {
+  height: 600px;
+  overflow-y: auto;
+}
+
+/* Risk Levels */
+.risk-assessment {
+  display: flex;
+  gap: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+.risk-assessment .w-8 {
+  line-height: 1;
+}
+
+/* Inventory Card */
+.inventory-card {
+  transition: all 0.3s ease;
+}
+
+.inventory-card.critical .value {
+  color: var(--danger);
+}
+
+/* General Styles */
+.panel-detail header {
+  padding-bottom: 1rem;
+  border-bottom: 1px solid var(--neutral-600);
+  margin-bottom: 1rem;
+}
+
+/* Action Buttons */
+.panel-detail .mt-6 {
+  margin-top: 1.5rem !important;
+}

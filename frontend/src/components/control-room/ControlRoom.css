@@ -1,0 +1,45 @@
+/* Control Room Styles */
+
+/* Metric Card */
+.metric-card {
+  transition: all 0.3s ease;
+}
+
+.metric-card:hover {
+  border-color: var(--primary) !important;
+}
+
+/* Panel Empty */
+.panel-empty {
+  height: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Panel Detail */
+.panel-detail {
+  height: 600px;
+  overflow-y: auto;
+}
+
+/* Risk Assessment */
+.risk-assessment .flex {
+  flex-wrap: wrap;
+}
+
+.risk-assessment .w-8 {
+  flex-shrink: 0;
+}
+
+/* Panel Header */
+.panel-detail header {
+  padding-bottom: 1rem;
+  border-bottom: 1px solid var(--neutral-600);
+  margin-bottom: 1rem;
+}
+
+/* Action Buttons */
+.panel-detail .mt-6 {
+  margin-top: 1.5rem !important;
+}
